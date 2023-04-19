@@ -3,6 +3,7 @@ import { fetchPopularRepos } from "../utils/Api";
 import SelectedLanguage from "./SelectedLanguage";
 import Repos from "./Repos";
 import Loader from "../utils/Loader";
+import Error from "../utils/Error";
 import { useSearchParams } from "react-router-dom"; 
 
 const languages = ["All", "Javascript", "Ruby", "Java", "CSS", "Python"];
@@ -30,7 +31,7 @@ const Popular = () => {
   }, [selectedLanguage, setSearchParams]);
 
   if (error) {
-    return "Error";
+    return <Error />;
   }
 
   return (

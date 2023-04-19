@@ -43,6 +43,7 @@ const Battle = () => {
             <button className="reset" onClick={() => handleReset("playerOne")}>Reset</button>
           </PlayerPreview>
         }
+        <div className="VS">VS</div>
        {!playersData.playerTwoImage ? 
           <PlayerInput
             id="playerTwo"

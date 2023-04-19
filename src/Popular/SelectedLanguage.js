@@ -9,7 +9,7 @@ const SelectedLanguage = memo(({ selectedLanguage, setSelectedLanguage, loading 
           <li
             key={index}
             style={{
-              color: language === selectedLanguage ? "#d0021b" : "#000000",
+              color: language === selectedLanguage ? "#d0021b" : "#fff",
               pointerEvents: loading ? 'none' : 'auto'
             }}
             onClick={() => setSelectedLanguage(language)}
