@@ -5,25 +5,24 @@ import Popular from "../Popular/index";
 import Battle from "../Battle/index";
 import Results from "../Battle/Results";
 
-
 const router = createBrowserRouter([
   {
     element: <Nav />,
     children: [ 
       {
-        path: "/",
+        path: "/Git-Hub_battle/",
         element: <Home />,
       },
       {
-        path: "popular",
+        path: "/Git-Hub_battle/popular",
         element: <Popular />,
       },
       {
-        path: "battle",
+        path: "/Git-Hub_battle/battle",
         element: <Battle />,
       },
       {
-        path: "battle/results",
+        path: "/Git-Hub_battle/battle/results",
         element: <Results />,
       },
        {
