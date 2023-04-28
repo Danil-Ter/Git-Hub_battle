@@ -10,19 +10,19 @@ const router = createBrowserRouter([
     element: <Nav />,
     children: [ 
       {
-        path: "/Git-Hub_battle/",
+        path: "/",
         element: <Home />,
       },
       {
-        path: "/Git-Hub_battle/popular",
+        path: "/popular",
         element: <Popular />,
       },
       {
-        path: "/Git-Hub_battle/battle",
+        path: "/battle",
         element: <Battle />,
       },
       {
-        path: "/Git-Hub_battle/battle/results",
+        path: "/battle/results",
         element: <Results />,
       },
        {
