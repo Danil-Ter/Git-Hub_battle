@@ -195,5 +195,8 @@ h2 {
   100% { transform: rotate(360deg); }
 }
 
-
+.Error {
+  font-size: 40px;
+  text-align: center;
+}
 
